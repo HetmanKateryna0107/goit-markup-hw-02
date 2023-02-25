@@ -6,8 +6,7 @@
     --accent-color: #404BBF;
     --secondary-color:#2E2F42;
 
---primory-font:'Roboto'
---secondary-font:'Raleway'}
+
 .list{ list-style: none;}
 .link{ text-decoration: none;}
 .text{
@@ -119,10 +118,9 @@ color: #404BBF;
    }
    .title-two{
     font-family: 'Roboto';
-   
-    font-weight: 500;
+       font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-      letter-spacing: 0.02em;
-  color: #2E2F42;}
-  
+     letter-spacing: 0.02em;
+  color: #2E2F42;
+}
