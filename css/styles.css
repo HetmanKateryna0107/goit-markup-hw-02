@@ -2,20 +2,34 @@
 
 /* nav */
 
-:root{ 
-    --accent-color: #404BBF;
-    --secondary-color:#2E2F42;
-
-
-.list{ list-style: none;}
-.link{ text-decoration: none;}
-.text{
-    font-family: 'Roboto';
+:root{    
+    --primaru-brand-color:#4D5AE5;   
     
+    --pressed-state-color:#404BBF;
+--dark-color:#2E2F42;
+--text-color:#434455;
+--text-footer-color: #E7E9FC;
+--subtle-text-color: #FFFFFF
+
+}
+ 
+
+
+
+
+    .link{ text-decoration: none;}
+
+
+  .list {
+      list-style: none;
+  }
+     .text{
+    font-family: 'Roboto', 'sens-serif';
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-  color: #434455;}
+  color:var(--text-color);}
 
 .logo-left{
 font-family: 'Raleway';
@@ -23,20 +37,20 @@ font-family: 'Raleway';
     font-size: 18px;
     line-height: 1.2;
      letter-spacing: 0.03em;
-    color: #4D5AE5;
+    color: var(--pressed-state-color);
 }
  
   
-.menu-link{font-family: 'Roboto', sens-serif;
+.menu-link{font-family: 'Roboto', 'sens-serif';
      font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;}
+    color:var(--dark-color)}
 
-.menu-link:hover,
+.menu-link:active,
 .menu-link:focus{    
-color: #404BBF;
+color: var(--pressed-state-color) ;
 }
 
 
@@ -44,83 +58,103 @@ color: #404BBF;
 /* =====================================================adress===================================================== */
 
 
-.contact-mailv{font-family: 'Roboto';
+.contact-mailv{font-family: 'Roboto','sens-serif';
             font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;}
+        color:var(--text-color);}
 
 .contact-phone-number{
-        font-family: 'Roboto';
+        font-family: 'Roboto', 'sens-serif';
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color:var(--text-color);
     }
 /*===================================================== section 1 hero =====================================================*/
 
 .main-title{
-    font-family: 'Roboto';
+    font-family: 'Roboto', 'sens-serif';
    
         font-weight: 700;
         font-size: 56px;
         line-height: 1.1; 
-        text-align: center;
-        letter-spacing: 0.02em;
-            color: #FFFFFF;
+               letter-spacing: 0.02em;
+            color: var(--subtle-text-color);
 }
 .modal-btn{
-    font-family: 'Roboto';
+    font-family: 'Roboto','sens-serif';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background-color: #4D5AE5; 
-    cursor: pointer;
+    color: var(--subtle-text-color);
+    background-color:var(--primaru-brand-color); 
+    
        }
 
 .modal-btn:hover,
 .modal-btn:focus{
-    background-color: #404BBF;
+    background-color: var(--pressed-state-color);
 }
 
 /* =====================================================section 2 =====================================================*/
 
-.title-secondaru{font-family: 'Roboto';
+.title-secondaru{font-family: 'Roboto', 'sens-serif';
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
     letter-spacing: 0.02em;
-      color: #2E2F42;}
-
+      color:var(--dark-color);}
+ 
 .title-third{
-        font-family: 'Roboto';
+        font-family: 'Roboto', 'sens-serif';
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-       color: #2E2F42;
-}
+       color:var(--dark-color);}
+    
+    /* =====================================================footer =====================================================*/
+    
+    .text-footer{
+        font-family: 'Roboto', 'sens-serif';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+     color: var(--text-footer-color);}
+
+
+             
+
 
    /*===================================================== page portfolio===================================================== */
-   .struktur{font-family: 'Roboto';
+   .struktur-link {font-family: 'Roboto', 'sens-serif';
       font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
        letter-spacing: 0.04em;
-     color: #4D5AE5;}
-   .btn-portfolio:hover,
-   .btn-portfolio:focus
-   {color: #FFFFFF;
-   }
+     color:var(--primaru-brand-color);}
+     
+       
+     .struktur-link:hover,
+     .struktur-link:focus{
+        color: var(--subtle-text-color);
+        background-color: var(--pressed-state-color);
+     }
+
+
+
+  
+
    .title-two{
-    font-family: 'Roboto';
+    font-family: 'Roboto', 'sens-serif';
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--dark-color);
 }
