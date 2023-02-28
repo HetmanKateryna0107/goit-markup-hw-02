@@ -25,20 +25,25 @@
   }
      .text{
     font-family: 'Roboto', 'sens-serif';
-    font-weight: 400;
-    font-size: 16px;
+       font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
   color:var(--text-color);}
 
 .logo-left{
-font-family: 'Raleway';
+font-family: 'Raleway', 'sens-serif';
     font-weight: 800;
     font-size: 18px;
     line-height: 1.2;
      letter-spacing: 0.03em;
     color: var(--pressed-state-color);
 }
+.logo-right{font-family: 'Raleway', 'sens-serif';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+color: var(--dark-color); }
  
   
 .menu-link{font-family: 'Roboto', 'sens-serif';
@@ -49,6 +54,7 @@ font-family: 'Raleway';
     color:var(--dark-color)}
 
 .menu-link:active,
+.menu-link:hover,
 .menu-link:focus{    
 color: var(--pressed-state-color) ;
 }
@@ -58,7 +64,8 @@ color: var(--pressed-state-color) ;
 /* =====================================================adress===================================================== */
 
 
-.contact-mailv{font-family: 'Roboto','sens-serif';
+.contact-mail{font-family: 'Roboto','sens-serif';
+font-style: normal;
             font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -67,6 +74,7 @@ color: var(--pressed-state-color) ;
 
 .contact-phone-number{
         font-family: 'Roboto', 'sens-serif';
+        font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -126,6 +134,9 @@ color: var(--pressed-state-color) ;
         line-height: 1.5;
         letter-spacing: 0.02em;
      color: var(--text-footer-color);}
+     .logo-right-footer{
+        color: var(--subtle-text-color)
+     }
 
 
              
